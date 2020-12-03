@@ -37,9 +37,6 @@ var dreamJob = prompt('Of all the places I have in mind for work, the islands ar
 if (dreamJob === 'yes' || dreamJob === 'y') {
   alert('You bet! Can you say paradise?')
 }
-// why am I not getting a number from my prompt? Why is my math comparison not working how i expected it
-
-
 
 for (var i = 0; i < 4; i++) {
   var age = parseInt(prompt('despite my babyface, I have crows feet... how old am I? Guess between 25 and 50!'));
