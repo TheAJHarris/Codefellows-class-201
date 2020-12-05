@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: Arial;
+}
+
+body {
+  font-family: arial;
+  color: red;
+}
+
+html {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU84KF-xXc-s81JLKmqBZuwXXrspupH55amQ&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+}
