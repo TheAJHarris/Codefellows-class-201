@@ -9,6 +9,8 @@ function questionOne() {
 
   if (myName === 'yes' || myName === 'y') {
     alert('yes indeed');
+  } else {
+    alert('Actually, my nickname IS AJ');
   }
 
 }
@@ -20,6 +22,8 @@ function questionTwo() {
 
   if (homeTown === 'yes' || homeTown === 'y') {
     alert('yes, but I call it home!');
+  } else {
+    alert('Sadly, it IS the forgotten borough, but I still love it!');
   }
 
 }
@@ -31,6 +35,8 @@ function questionThree() {
 
   if (military === 'yes' || military === 'y') {
     alert('correct! Haze gray and underway!');
+  } else {
+    alert ('I am in fact a squid lol, miss the Navy!');
   }
 
 }
@@ -42,6 +48,8 @@ function questionFour() {
 
   if (education === 'yes' || education === 'y') {
     alert('yeah it is!  One of the best parades I have been to!');
+  } else {
+    alert('Yes it is! If you havent been, youre missing out!');
   }
 
 }
@@ -53,6 +61,8 @@ function questionFive() {
 
   if (dreamJob === 'yes' || dreamJob === 'y') {
     alert('You bet! Can you say paradise?');
+  } else {
+    alert('Oh, I defintely would love to work in the islands!')
   }
 
 }
