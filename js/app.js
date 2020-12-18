@@ -102,5 +102,16 @@ function questionSix() {
 }
 console.log(questionSix());
 
+function questionSeven() {
+  var faveColor = prompt('Choosing from Red, Blue, Black, White and Green, which of these are my favorite colors? There are three correct answers.').toLowerCase();
+  if (faveColor === 'black' || faveColor ==='white' || faveColor ==='red'){
+    alert('Thats right!');
+  } else {
+    alert('no, thats not one of my favorites');
+  }
+}
+
+questionSeven();
+
 alert('Thanks for learning a bit about me ' + userName + ', hope you have fun!');
 
