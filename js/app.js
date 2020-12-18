@@ -61,7 +61,7 @@ function questionFive() {
   if (dreamJob === 'yes' || dreamJob === 'y') {
     alert('You bet! Can you say paradise?');
   } else {
-    alert('Oh, I defintely would love to work in the islands!')
+    alert('Oh, I defintely would love to work in the islands!');
   }
 
 }
