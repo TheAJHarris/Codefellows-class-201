@@ -5,7 +5,6 @@ alert(`Hi, ${userName}, thanks for coming to my page!`);
 
 function questionOne() {
   var myName = prompt('My full name is Anthony Johnson, do people call me AJ for short?').toLowerCase();
-  // console.log(name)
 
   if (myName === 'yes' || myName === 'y') {
     alert('yes indeed');
@@ -14,7 +13,7 @@ function questionOne() {
   }
 
 }
-console.log(questionOne());
+questionOne();
 
 function questionTwo() {
   var homeTown = prompt('I am from NYC, Staten island to be exact, do people call it the forgotten borough?').toLowerCase();
@@ -27,7 +26,7 @@ function questionTwo() {
   }
 
 }
-console.log(questionTwo());
+questionTwo();
 
 function questionThree() {
   var military = prompt('I served in the military, but spent a good portion of my time on water, was I in the navy?').toLowerCase();
@@ -40,7 +39,7 @@ function questionThree() {
   }
 
 }
-console.log(questionThree());
+questionThree();
 
 function questionFour() {
   var education = prompt('I went to college in New Orleans, is this also where mardi gras happens?').toLowerCase();
@@ -53,7 +52,7 @@ function questionFour() {
   }
 
 }
-console.log(questionFour());
+questionFour();
 
 function questionFive() {
   var dreamJob = prompt('Of all the places I have in mind for work, the islands are my DREAM!').toLowerCase();
@@ -66,7 +65,7 @@ function questionFive() {
   }
 
 }
-console.log(questionFive());
+questionFive();
 
 function questionSix() {
   for (var i = 0; i < 4; i++) {
@@ -100,7 +99,7 @@ function questionSix() {
   }
 
 }
-console.log(questionSix());
+questionSix();
 
 function questionSeven() {
   var faveColor = prompt('Choosing from Red, Blue, Black, White and Green, which of these are my favorite colors? There are three correct answers.').toLowerCase();
